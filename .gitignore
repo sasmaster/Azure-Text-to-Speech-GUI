@@ -10,6 +10,9 @@
 *.dll
 *.dylib
 
+build-AzureSpeech-Desktop_Qt_5_9_1_MSVC2015_64bit-Debug
+packages
+
 # Qt-es
 object_script.*.Release
 object_script.*.Debug
