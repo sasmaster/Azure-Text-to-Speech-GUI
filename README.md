@@ -11,4 +11,6 @@ https://github.com/Azure-Samples/cognitive-services-speech-sdk/blob/master/sampl
 I just put on top of it GUI to be able to configure different languages,voices and text rapidly,instead of messing with those parameters in code
 (if using as a cmd app).
 
+![Alt text](screenshot.JPG?raw=true "Software screenshot")
+
 
