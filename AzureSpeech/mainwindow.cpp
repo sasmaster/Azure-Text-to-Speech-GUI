@@ -55,7 +55,9 @@ void MainWindow::HandleConnectionATTS()
                 return;
             }
             QTextStream in(&file);
-            userKeyString = in.readLine().toStdString();
+            auto qstr = in.readLine();
+            ui->serviceKeyTextEdit->setText(qstr);
+            userKeyString = qstr.toStdString();
 
         }else
         {
